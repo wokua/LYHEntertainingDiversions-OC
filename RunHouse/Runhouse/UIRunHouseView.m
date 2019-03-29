@@ -178,7 +178,6 @@
 }
 
 - (void)clearCache{
-    self.idCache = [NSMutableDictionary dictionary];
     self.reuseViewCache = [NSMutableDictionary dictionary];
     self.widthCache = [NSMutableDictionary dictionary];
 }

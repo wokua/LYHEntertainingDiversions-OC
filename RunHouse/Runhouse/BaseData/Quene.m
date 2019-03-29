@@ -21,8 +21,9 @@
 - (instancetype)init:(id)data{
     self = [super init];
     if (self) {
-        self.firstNode = [[Node alloc]init:data];
-        self.lastNode = [[Node alloc]init:data];
+        Node * node = [[Node alloc]init:data];
+        self.firstNode = node;
+        self.lastNode = node;
     }
     return self;
 }
